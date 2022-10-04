@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/monkey.png">
+    <title>The End!</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+        @keyframes bgcolor {
+            0% {background-color:#97d5ee;}
+            25% {background-color:#4092ca;}
+            50% {background-color:#f5b7cf;}
+            75% {background-color:#f19fc5;}
+            100% {background-color:#97d5ee;}
+        }
+
+        body {
+            margin:0;
+            padding:0;
+
+            animation-name:bgcolor;
+            animation-duration:10s;
+            animation-delay:0s;
+            animation-iteration-count:infinite;
+        }
+
+        .container {
+            display:flex;
+            flex-flow:column wrap;
+            justify-content:center;
+            align-items:center;
+        }
+
+
+        .title {
+            font-size:50px;
+            font-family: 'Nabla', cursive;
+            text-shadow:1px 2px 3px #000;
+            padding:15px;
+        }
+
+        .text {
+            font-family: 'PT Sans', sans-serif;
+            font-size:35px;
+            color:#ffeb6e;
+            text-shadow:1px 2px 3px #000;
+        }
+
+        .list dt {
+            font-size:28px;
+            text-align:center;
+            color:#FFF;
+            text-shadow:1px 2px 3px #000;
+            padding-bottom:15px;
+        }
+
+        footer {
+            margin-bottom:30px;
+        }
+
+        button {
+            text-decoration: none;
+            background-color:#ffeb6e;
+            color:#000;
+            font-weight:bolder;
+            font-size:20px;
+            width:231.83px;
+            height:30px;
+        }
+
+        button:hover {
+            height:40px;
+            background-color:#fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="title">THE END!</h1>
+        </div>
+    </header>  
+
+    <article>
+        <div class="container">
+            <p class="text">
+                Aqui infelizmente se encerra o seu presente, meu amor;<br/>
+                Espero que tenha gostado porque fiz com muito carinho;</br>
+                Como último presente eu deixo essa listinha de bônus.
+            </p>
+            <dl class="list">
+                <dt>Cenas:
+                    <dd><strong>Shrek 1</dd><dd>01:04:25</strong></dd><br/>
+                    <dd><strong>O Espetacular Homem Aranha 2</dd><dd>1:45:00</strong></dd><br/>
+                    <dd><strong>Tá Dando Onda</dd><dd>00:10:23</strong></dd><br/>
+                    <dd><strong>A Era do Gelo</dd><dd>00:09:07</strong></dd><br/>
+                    <dd><strong>Hotel Transilvânia 1</dd><dd>1:19:38</strong></dd><br/>
+                    <dd><strong>Os Incríveis 1</dd><dd>00:51:22</strong></dd><br/>
+                    <dd><strong>Vingadores Ultimato</dd><dd>00:41:14</strong></dd>
+                </dt>
+            </dl> 
+            <p class="text">Eu te amo, obrigado por tudo!</p>
+        </div>
+    </article>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <button>Voltar</button>
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

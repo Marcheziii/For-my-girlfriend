@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+@keyframes bgcolor {
+    0% {background-color:#97d5ee;}
+    25% {background-color:#4092ca;}
+    50% {background-color:#f5b7cf;}
+    75% {background-color:#f19fc5;}
+    100% {background-color:#97d5ee;}
+}
+
+body {
+    margin:0;
+    padding:0;
+
+    animation-name:bgcolor;
+    animation-duration:10s;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+}
+
+.container {
+    display:flex;
+    flex-flow:column wrap;
+    align-items:center;
+    justify-content:center;
+}
+
+header h1, header h2 {
+    font-size:30px;
+    font-family: 'Nabla', cursive;
+    line-height:10px;
+    text-shadow:3px 4px 3px #000;
+}
+
+header h1  {
+    padding-top:30px;
+}
+
+header h2 {
+    padding-bottom:50px;
+}
+
+.subtitle {
+    font-size:30px;
+    font-family: 'Nabla', cursive;
+    padding:30px;
+    text-shadow:3px 4px 3px #000;
+}
+
+.list {
+    flex-flow:row wrap;
+    margin-bottom:100px;
+}
+
+.list button {
+    height:30px;
+}
+
+.list button:hover {
+    height:40px;
+    
+}
+
+.animadinha {
+    color:#010101;
+    background-color:#f7bcb6;
+    font-weight:bold;
+}
+
+.zangadinho {
+    color:#010101;
+    background-color:#4092ca;
+    font-weight:bold;
+}
+
+.soneca {
+    color:#010101;
+    background-color:#97d5ee;
+    font-weight:bold;
+}
+
+.boasorte {
+    color:#010101;
+    background-color:#5ba627;
+    font-weight:bold;
+}
+
+.aniversario {
+    color:#010101;
+    background-color:#fdcb5d;
+    font-weight:bold;
+}
+
+article {
+    border-bottom:1px solid #fff;
+}
+
+.endbar {
+    display:flex;
+    flex-flow:column wrap;
+
+    background-color:#000;
+}
+
+.endbar p {
+    font-size:13px;
+    font-weight:bolder;
+    margin-left:30px;
+}
+
+.endbar #c1 {
+    color:#4092ca;
+}
+
+.endbar #c2 {
+    color:#fdcb5d;
+}
+
+
+
+
+
+
+
